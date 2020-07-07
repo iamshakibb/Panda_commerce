@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,p,span{
+    margin: 0;
+    padding: 0;
+}
+
+/*common css start*/
+.shoes, .categories, .bags {
+    margin-top: 80px;
+}
+
+.card-body h4,
+.card-body p,
+.card-body h5 {
+    padding-bottom: 25px;
+}
+
+.shoes_heading a, .bags_heading a {
+    color: #FF9D00;
+}
+
+.card-deck {
+    margin-top: 40px;
+}
+
+.card-body {
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.card-body h4,
+.card-body p,
+.card-body h5 {
+    padding-bottom: 25px;
+}
+
+.card-body p {
+    color: #707070;
+}
+
+.card-body .btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+/*common css end*/
+
+/*nav bar section start*/
+header {
+    margin-top: 10px;
+}
+
+#my_nav form {
+    margin-left: 100px;
+    display: flex;
+    background-color: #F8F8F8;
+    border-radius: 15px;
+}
+
+#my_nav form input {
+    width: 350px;
+    flex-grow: 1;
+    border: none;
+    background-color: #F8F8F8;
+    border-radius: 15px;
+}
+
+form .btn {
+    border: none;
+    margin-right: 10px;
+}
+
+nav ul li {
+    padding-left: 20px;
+}
+
+/*nav bar section end*/
+
+
+
+/*banner section start*/
+.banner_bg {
+    background-color: #FEEAE9;
+    position: relative;
+    padding: 30px 0px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+/*banner text */
+.banner_text {
+    padding: 0px 80px;
+}
+
+.banner_text h1,
+.banner_text p,
+.banner_text h2{
+    padding-bottom: 30px;
+}
+
+.banner_text p {
+    color: #707070;
+}
+
+.banner_text h2 {
+    color: #FF136F;
+}
+
+.banner_text button {
+    background: linear-gradient(45deg, #FF589B, #FF136F);
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.banner_text button:hover {
+    color: #fff;
+}
+/*banner text */
+
+/*left and right arrow work start*/
+.left_arrow {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    z-index: 999;
+    transform: translateX(-2%) translateY(-50%);
+}
+
+.right_arrow {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    z-index: 999;
+    transform: translateX(-2%) translateY(-50%);
+}
+/*left and right arrow work end*/
+
+/*banner dots work start*/
+.banner_dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    list-style: none;
+    color: transparent;
+}
+
+.banner_dots li {
+    padding-left: 20px;
+}
+
+.banner_dots li button {
+    background-color: white;
+    border-radius: 50%;
+	height: 15px;
+	width: 15px;
+	color: transparent;
+	overflow: hidden;
+    position: relative;
+    border: none;
+}
+
+.banner_dots .slick-active button{
+    border-color: black;
+    height: 16px;
+	width: 16px;
+	background: linear-gradient(45deg, #FF589B, #FF136F);
+	opacity: 1;
+}
+/*banner dots work end*/
+
+
+/*categories section start*/
+.cat_1,
+.cat_2,
+.cat_3 {
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.cat_1 {
+    background: linear-gradient(45deg, #FF9C35, #FFD019);
+}
+
+.cat_2 {
+    background: linear-gradient(45deg, #FF589B, #FF136F);
+}
+
+.cat_3 {
+    background: linear-gradient(45deg, #4289FF, #3F07F8);
+}
+
+.cat_1 img,
+.cat_2 img,
+.cat_3 img {
+    width: 40%;
+}
+/*categories section end*/
+
+.gray_banner {
+    background-color: #F8F8F8;
+    padding-bottom: 70px;
+}
+
+/*Shoes section start*/
+
+.shoes {
+    padding-top: 40px;
+}
+
+.shoes .card img {
+    width: 60%;
+}
+
+/*Shoes section end*/
+
+/*bag section start*/
+
+.bags .card img {
+    width: 60%;
+}
+/*bag section start*/
+
+/*email section start*/
+
+.email {
+    margin-top: 50px;
+}
+
+.email_bg {
+    background-color: #FEEAE9;
+    text-align: center;
+    position: relative;
+    height: 250px;
+    border-radius: 15px;
+}
+.email_text {
+    padding-top: 50px;
+}
+
+.email_text h3, .email_text p {
+    padding-bottom: 10px;
+}
+
+.email_text form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.email_text p {
+    color: #707070;
+}
+
+.email_text form input{
+    width: 350px !important;
+    flex-grow: 1;
+    border: none;
+    padding: 15px 20px;
+    margin: 0 !important;
+}
+
+.email_text form button {
+    background: linear-gradient(45deg, #FF589B, #FF136F);
+    border: none;
+    margin-left: -10px;
+    padding: 7px 25px;
+}
+/*email section end*/
+
+/*footer section start*/
+footer {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: #707070;
+    text-align: center;
+}
+
+/*footer section end*/
