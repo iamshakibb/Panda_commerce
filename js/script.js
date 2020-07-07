@@ -5,9 +5,9 @@ $(document).ready(function(){
         nextArrow : '<i class="fas fa-chevron-right right_arrow"></i>',
         dots: true,
         dotsClass: 'banner_dots',
-        infinite: false,
+        infinite: true,
         speed: 300,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 3000,
         speed: 1000,
     });
