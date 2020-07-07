@@ -7,6 +7,9 @@ $(document).ready(function(){
         dotsClass: 'banner_dots',
         infinite: true,
         speed: 300,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        speed: 1000,
     });
 
     AOS.init({
