@@ -5,6 +5,8 @@ $(document).ready(function(){
         nextArrow : '<i class="fas fa-chevron-right right_arrow"></i>',
         dots: true,
         dotsClass: 'banner_dots',
+        infinite: true,
+        speed: 300,
     });
 
     AOS.init({
