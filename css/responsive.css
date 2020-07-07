@@ -9,6 +9,10 @@
     }
 
     /*nav bar section start*/
+    header {
+        margin-top: 20px;
+    }
+
     #my_nav {
         text-align: center;
     }
@@ -131,6 +135,10 @@
     }
 
     /*nav bar section start*/
+    header {
+        margin-top: 20px;
+    }
+
     #my_nav {
         text-align: center;
     }
